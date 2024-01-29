@@ -6,30 +6,30 @@ var { title } = Astro.props
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title} | Adarsh Kumar</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{title} | Adarsh Kumar</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <slot />
-    </main>
+        <main>
+            <slot />
+        </main>
 
-    <footer>
-        <p>&copy; 2023 Adarsh Kumar</p>
-    </footer>
+        <footer>
+            <p>&copy; 2023 Adarsh Kumar</p>
+        </footer>
 
-    <script src="/scripts/script.js" is:inline></script>
-</body>
+        <script src="/scripts/script.js" is:inline></script>
+    </body>
 </html>
